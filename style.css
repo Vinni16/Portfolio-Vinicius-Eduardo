@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* CSS GRID */
+.parent {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+    /*layout com 3 colunas e 3 linhas*/
+header {
+    grid-column: 1;
+    grid-row: 1;
+}
+main {
+    grid-column: 1;
+    grid-row: 2;
+}
+footer {
+    grid-column: 1;
+    grid-row: 3;
+}
+/* CSS GRID */
+body {
+    background-image: url("/img/back all cover.png");
+    height: 1413px; /*1080px cada seção*/
+    width: 1900px;
+}
+section {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    border: 0;
+}
+#secao1 {
+    height: 1060px; /*1080px cada seção*/
+    width: 1900px;
+}
+
+#secao2 {
+    height: 353px; /*1080px cada seção*/
+    width: 1900px;
+}
+header {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    padding-left: 5%;
+    padding-right: ;
+    padding-top: 20;
+    padding-bottom: 5%;
+}
+.foto-de-perfil {
+    width: 150px;
+}
+.redes-sociais {
+    width: 20px;
+}
+main {
+
+}
+table {
+    text-align: center;
+    padding: 10px;
+}
+table tr {
+    text-align: center;
+}
+table tr td { 
+    height: 300px;
+    width: 400px;
+    background-color: blueviolet;
+}
+table tr td:hover { /*Animação ao passar o mouse*/
+    transition: 0.25s;
+    transform: scale(1.1);
+}
+.imgTabela {
+    width: 400px;
+}
+
+footer {
+    padding-top: 1%;
+    margin-left: 5%;
+    margin-right: 60%;
+}
